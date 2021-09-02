@@ -24,7 +24,7 @@ Before clicking on deploy to heroku just click on fork and star just below
     
   </a>
   <a href="https://github.com/MRK-YT/MT-GroupMusic-Bot">
-    <img src="https://img.shields.io/github/stars/MoTechYT/MT-GroupMusic-Bot?style=social">
+    <img src="https://img.shields.io/github/stars/MRK-YT/MT-GroupMusic-Bot?style=social">
   </a>
 </p>
 
