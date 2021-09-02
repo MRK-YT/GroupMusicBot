@@ -59,7 +59,7 @@
     "PMPERMIT": {
       "description": "Change to turn off {ENABLE}",
       "required": false,
-      "value": "ENABLE"
+      "value": "off"
     },    
     "API_HASH": {
       "description": "App hash from my.telegram.org/apps or @MT_MyTelegramOrg_Bot",
