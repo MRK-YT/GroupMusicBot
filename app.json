@@ -1,6 +1,6 @@
 {
-  "name": "Group Music Bot",
-  "logo": "https://telegra.ph/file/e62e75453eeedad35a189.jpg",
+  "name": "Nawaj Music Bot",
+  "logo": "https://telegra.ph/file/f2e78b5ab556cebc08824.jpg",
   "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls.",
   "keywords": ["music", "voicechat", "telegram"],
   "repository": "https://github.com/LushaiMusic/GroupMusicBot",
