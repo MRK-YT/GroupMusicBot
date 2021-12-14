@@ -1,18 +1,19 @@
 import os
 from VCsMusicBot.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,UPDATES_CHANNEL
-class Messages():
+
+
+class Messages:
       START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Hits /help for more info."
       HELP_MSG = [
-        ".",
-f"""
+          ".",
+          f"""
 **Hello, Welcome to {PROJECT_NAME}
 
 ⭕ I can play music in your group's voice chat as well as channel voice chats.
 
 ⭕ Assistant: @{ASSISTANT_NAME}\n\nClick Next ➡️ for instructions.**
 """,
-
-f"""
+          f"""
 **Setting up**
 
 1) Make bot admin (Group and in channel if use cplay)
@@ -47,8 +48,7 @@ f"""
 
 **Player cmd and all other cmds except /play, /current  and /playlist  are only for admins of the group.**
 """,
-        
-f"""
+          f"""
 **=>> Channel Music Play 👨‍🎤**
 
 **⭕ For linked group admins only:**
@@ -75,31 +75,13 @@ f"""
 4) Add @{ASSISTANT_NAME} to the channel as an admin.
 5) Simply send commands in your group.
 """,
-
-f"""
+          f"""
 **=>> More tools 😬**
 
 - /musicplayer <on/off> : Enable/Disable Music player
 - /reload: Updates admin info of your group. Try if bot isn't recognize admin
 - /userbotjoin: Invite @{ASSISTANT_NAME} Userbot to your chat
 """,
-f"""
-**=>> Song/Vid Download 📥**
-- /video [song mame]: Download video song from youtube
-- /song [song name]: Download audio song from youtube
-- /saavn [song name]: Download song from saavn
-- /deezer [song name]: Download song from deezer
-
-**=>> Search Tools 🔍**
-- /search [song name]: Search youtube for songs
-- /lyrics [song name]: Get song lyrics
-""",
-
-f"""
-**=>> Commands for Sudo Users 👮**
- - /userbotleaveall - remove assistant from all chats
- - /broadcast <reply to message> - globally brodcast replied message to all chats
- - /pmpermit [on/off] - enable/disable pmpermit message
-**Sudo Users can execute any command in any groups.**
-"""
+          '\x1f**=>> Song/Vid Download 📥**\x1f- /video [song mame]: Download video song from youtube\x1f- /song [song name]: Download audio song from youtube\x1f- /saavn [song name]: Download song from saavn\x1f- /deezer [song name]: Download song from deezer\x1f\x1f**=>> Search Tools 🔍**\x1f- /search [song name]: Search youtube for songs\x1f- /lyrics [song name]: Get song lyrics\x1f',
+          '\x1f**=>> Commands for Sudo Users 👮**\x1f - /userbotleaveall - remove assistant from all chats\x1f - /broadcast <reply to message> - globally brodcast replied message to all chats\x1f - /pmpermit [on/off] - enable/disable pmpermit message\x1f**Sudo Users can execute any command in any groups.**\x1f',
       ]

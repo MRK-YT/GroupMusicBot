@@ -16,11 +16,14 @@ async def update_admin(client, message: Message):
     chat_id = get_chat_id(message.chat)
     set(
         chat_id,
-        [
+        (
             member.user
-            for member in await message.chat.get_members(filter="administrators")
-        ],
+            for member in await message.chat.get_members(
+                filter="administrators"
+            )
+        ),
     )
+
     await message.reply_text("❇️ Admin cache refreshed!")
 
 
@@ -100,9 +103,12 @@ async def skip(_, message: Message):
 async def admincache(client, message: Message):
     set(
         message.chat.id,
-        [
+        (
             member.user
-            for member in await message.chat.get_members(filter="administrators")
-        ],
+            for member in await message.chat.get_members(
+                filter="administrators"
+            )
+        ),
     )
+
     await message.reply_text("❇️ Admin cache refreshed!")
